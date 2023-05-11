@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
 //img
-import img1 from "../assets/portfolio-img1.png";
-import img2 from "../assets/portfolio-img2.png";
-import img3 from "../assets/portfolio-img3.png";
+// import img1 from "../assets/portfolio-img1.png";
+// import img2 from "../assets/portfolio-img2.png";
+// import img3 from "../assets/portfolio-img3.png";
 
 const Work = () => {
   return (
@@ -39,7 +39,7 @@ const Work = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={img1}
+                src="images/portfolio-img1.png"
                 alt=""
               />
               {/* pretitle */}
@@ -65,7 +65,7 @@ const Work = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={img2}
+                src="/images/portfolio-img2.png"
                 alt=""
               />
               {/* pretitle */}
@@ -83,7 +83,7 @@ const Work = () => {
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
-                src={img3}
+                src="/images/portfolio-img3.png"
                 alt=""
               />
               {/* pretitle */}

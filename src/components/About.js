@@ -68,7 +68,7 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-            <a href="https://wa.me/8085678460?text=urlencodedtext"><button
+            <a href="https://wa.me/+918085678460?text=urlencodedtext"><button
               className="btn btn-lg">Contact me</button></a>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio

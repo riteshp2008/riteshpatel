@@ -11,28 +11,24 @@ import { fadeIn } from "../variants";
 //service data
 const service = [
   {
-    name: "UI/UX Design",
+    name: "Frontend Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum",
-    link: "Learn more",
+      "A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.",
   },
   {
-    name: "Development",
+    name: "Backend Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum",
-    link: "Learn more",
+      "Back-end development means working on server-side software, which focuses on everything you can't see on a website.",
   },
   {
-    name: "Digital Marketing",
+    name: "Full Stack Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum",
-    link: "Learn more",
+      "Full stack development is the process of designing, creating, testing, and deploying a complete web application from start to finish.",
   },
   {
-    name: "product branding",
+    name: "UX/UI Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum",
-    link: "Learn more",
+      "UI/UX design aims to create a positive user experience that encourages customers to stick with a brand or product.",
   },
 ];
 
@@ -51,10 +47,8 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6">What i do...</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a freelancer front-end Developer with over 6 monnth of
-              experience.
+              I'm a Full Stack Developer with Good analytical and problem solving skills.
             </h3>
-            <button className="btn btn-sm">See my work</button>
           </motion.div>
           {/* sevices */}
           <motion.div

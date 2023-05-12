@@ -29,16 +29,17 @@ const About = () => {
             whileInView={"show"}
             viewport={{ once: false, amout: 0.3 }}
             className="flex-1"
-            >
+          >
             <h2 className="h2 text-accent">About me!</h2>
             <h3 className="h3 mb-4 ">
-              I'm a freelancer front-end Developer with over 6 monnth of
-              experience.
+              I am skilled in Core Java, MySQL, Hibernate, SpringBoot, HTML,
+              CSS, JavaScript, Node.js, React.js.
             </h3>
             <p className="mb-6">
-              lorum ipsum dolor sit amet con lorem ips lorum ipsum dolor sit
-              amet con lorem ipslorum ipsum dolor sit amet con lorem ipslorum
-              ipsum dolor sit amet con lorem ips
+              In the past, I have worked on projects based on IoT in which I
+              worked with the front-end team. In addition to my development
+              work, I am skilled in troubleshooting problems and resolving bugs
+              within an existing system.
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
@@ -52,7 +53,7 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiarey text-gradient mb-2">
-                  {InView ? <CountUp start={0} end={15} duration={7} /> : null}+
+                  {InView ? <CountUp start={0} end={7} duration={6} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects <br /> Completed
@@ -60,16 +61,17 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiarey text-gradient mb-2">
-                  {InView ? <CountUp start={0} end={8} duration={6} /> : null}+
+                  {InView ? <CountUp start={0} end={5} duration={4} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Satisfied <br /> client
+                  certificates <br /> Earned
                 </div>
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-            <a href="https://wa.me/+918085678460?text=Hi"><button
-              className="btn btn-lg">Contact me</button></a>
+              <a href="https://wa.me/+918085678460?text=Hi">
+                <button className="btn btn-lg">Contact me</button>
+              </a>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>

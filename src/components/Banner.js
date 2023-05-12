@@ -60,7 +60,10 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              I am a full stack developer and designer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web technology and animation.
+              Full Stack Developer with Good analytical and problem solving
+              skills and ability to perform well in team. Passionate about
+              coding and learning new things and update myself with new
+              technologies.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -69,8 +72,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex gap-x-7 max-w-max items-center mb-10 mx-auto lg:mx-0"
             >
-              <a href="https://wa.me/+918085678460?text=Hi"><button
-              className="btn btn-lg">Contact me</button></a>
+              <a href="https://wa.me/+918085678460?text=Hi">
+                <button className="btn btn-lg">Contact me</button>
+              </a>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>

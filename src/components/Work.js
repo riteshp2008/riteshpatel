@@ -48,7 +48,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Name</span>
+                <span className="text-3x1 text-white">Portfolio</span>
               </div>
             </div>
           </motion.div>
@@ -70,11 +70,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX design</span>
+                <span className="text-gradient">Front-end Development</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Name</span>
+                <span className="text-3x1 text-white">plixx.co..in</span>
               </div>
             </div>
             {/* image */}
@@ -88,11 +88,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX design</span>
+                <span className="text-gradient">Bank-end Development</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Name</span>
+                <span className="text-3x1 text-white">Quiz Application</span>
               </div>
             </div>
           </motion.div>

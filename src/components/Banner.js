@@ -2,13 +2,14 @@ import React from "react";
 //image
 // import Image from "../assets/avatar.svg";
 //icons
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 // type animation
 import { TypeAnimation } from "react-type-animation";
 // motion
 import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
+import { Link } from "react-scroll";
 
 const Banner = () => {
   return (
@@ -59,7 +60,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              I am a full stack developer and designer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web technology like, Core java, HTML, CSS, JavaScript, React, Node, Express, MongoDB, MySQL, Bootstrap, Tailwind CSS, Material UI, Framer Motion, etc.
+              I am a full stack developer and designer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web technology and animation.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -68,7 +69,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex gap-x-7 max-w-max items-center mb-10 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact me</button>
+              <a href="https://wa.me/8085678460?text=urlencodedtext"><button
+              className="btn btn-lg">Contact me</button></a>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>
@@ -84,8 +86,8 @@ const Banner = () => {
               <a href="https://www.instagram.com/ri.teshhh/">
                 <FaInstagram />
               </a>
-              <a href="https://github.com/riteshp2008">
-                <FaGithub />
+              <a href="https://twitter.com/ri_teshhh">
+                <FaTwitter />
               </a>
               <a href="https://www.linkedin.com/in/riteshpatel2008/">
                 <FaLinkedin />

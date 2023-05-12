@@ -69,7 +69,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex gap-x-7 max-w-max items-center mb-10 mx-auto lg:mx-0"
             >
-              <a href="https://wa.me/+918085678460?text=urlencodedtext"><button
+              <a href="https://wa.me/+918085678460?text=Hi"><button
               className="btn btn-lg">Contact me</button></a>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio

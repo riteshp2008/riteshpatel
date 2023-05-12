@@ -27,11 +27,10 @@ const Work = () => {
                 Work
               </h2>
               <p className="max-w-sm mb-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptatum.Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Quisquam, voluptatum
+                Here are a few design projects I've worked on recently. The used technologies are React.js, Node.js, Express.js, MongoDB, HTML, CSS, JavaScript, Bootstrap, Material UI, Framer Motion, etc.
               </p>
-              <button className="btn btn-sm">View all Project</button>
+              <a href="https://github.com/riteshp2008?tab=repositories">
+              <button className="btn btn-sm">View all Project</button></a>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">

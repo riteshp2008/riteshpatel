@@ -11,19 +11,19 @@ import { fadeIn } from "../variants";
 //service data
 const service = [
   {
+    name: "Full Stack Development",
+    description:
+      "Full stack development is the process of designing, creating, testing, and deploying a complete web application from start to finish.",
+  },
+  {
     name: "Frontend Development",
     description:
-      "A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app.",
+      "Front-end developers create user interfaces (UI). They work with UX and UI designers to build interactive websites and web app's.",
   },
   {
     name: "Backend Development",
     description:
       "Back-end development means working on server-side software, which focuses on everything you can't see on a website.",
-  },
-  {
-    name: "Full Stack Development",
-    description:
-      "Full stack development is the process of designing, creating, testing, and deploying a complete web application from start to finish.",
   },
   {
     name: "UX/UI Design",
@@ -78,12 +78,12 @@ const Services = () => {
                     </div>
                     <div className="flex flex-col flex-1 items-end">
                       <a
-                        href="#"
+                        href="https://www.coursereport.com/blog/choosing-between-ux-ui-design-vs-web-development"
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
                       >
                         <BsArrowUpRight />
                       </a>
-                      <a href="#" className="text-gradient text-sm">
+                      <a href="https://www.coursereport.com/blog/choosing-between-ux-ui-design-vs-web-development" className="text-gradient text-sm">
                         {link}
                       </a>
                     </div>

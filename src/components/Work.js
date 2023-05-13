@@ -73,7 +73,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">plixx.co..in</span>
+                <span className="text-3x1 text-white"> <a href="https://plixx.co.in/">plixx.co..in</a></span>
               </div>
             </div>
             {/* image */}

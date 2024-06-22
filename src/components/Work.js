@@ -27,10 +27,13 @@ const Work = () => {
                 Work
               </h2>
               <p className="max-w-sm mb-5">
-                Here are a few design projects I've worked on recently. The used technologies are React.js, Node.js, Express.js, MongoDB, HTML, CSS, JavaScript, Bootstrap, Material UI, Framer Motion, etc.
+                Here are a few design projects I've worked on recently. The used
+                technologies are JavaScript, React.js, Redux, Next.js, Node.js,
+                Express.js, MongoDB, TailwindCss, etc.
               </p>
               <a href="https://github.com/riteshp2008?tab=repositories">
-              <button className="btn btn-sm">View all Project</button></a>
+                <button className="btn btn-sm">View all Project</button>
+              </a>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/20 rounded-xl">
@@ -43,11 +46,16 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX design</span>
+                <span className="text-gradient">
+                  {" "}
+                  <a href="https://ritesh-waitlist.vercel.app/">Waitlist</a>
+                </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Portfolio</span>
+                <span className="text-3x1 text-white">
+                  Next.js || TailwindCss
+                </span>
               </div>
             </div>
           </motion.div>
@@ -69,11 +77,17 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Front-end Development</span>
+                <span className="text-gradient">
+                  <a href="https://ai-form-builder-riteshpatel.vercel.app/">
+                    AI Form Builder
+                  </a>
+                </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white"> <a href="https://plixx.co.in/">plixx.co..in</a></span>
+                <span className="text-3x1 text-white">
+                  Next.js || Gemini AI || Clerk || Stripe
+                </span>
               </div>
             </div>
             {/* image */}
@@ -87,11 +101,15 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Bank-end Development</span>
+                <span className="text-gradient">
+                  <a href="https://memories-app-six.vercel.app/">Memories</a>
+                </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Quiz Application</span>
+                <span className="text-3x1 text-white">
+                  React.js || Redux || Node.js || Express.js || MongoDB
+                </span>
               </div>
             </div>
           </motion.div>

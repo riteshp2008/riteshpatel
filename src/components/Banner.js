@@ -60,13 +60,12 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              A passionate and results-driven Full Stack Developer with 3 months
-              of internship experience and a strong foundation in agile
-              methodologies. Leveraging expertise in JavaScript, Node.js,
-              MongoDB, and various JavaScript libraries, I design, develop, and
-              deploy full-stack web applications that are robust, user-friendly,
-              and efficient. I am eager to contribute my skills and collaborate
-              within a fast-paced development environment.
+              As an aspiring software developer, I am equipped with foundational
+              skills in programming languages such as JavaScript and proficiency
+              in web development technologies, including React.js, Next.js,
+              Redux, Node.js, Express.js and MongoDB. Eager to contribute my
+              enthusiasm and learnings to dynamic teams, I am committed to
+              continuous growth and delivering innovative solutions !
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}

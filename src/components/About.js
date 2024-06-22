@@ -31,15 +31,15 @@ const About = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent">About me!</h2>
-            <h3 className="h3 mb-4 ">
-              I am skilled in Core Java, MySQL, Hibernate, SpringBoot, HTML,
-              CSS, JavaScript, Node.js, React.js.
-            </h3>
+            {/* <h3 className="h3 mb-4 ">I am skilled in</h3> */}
             <p className="mb-6">
-              In the past, I have worked on projects based on IoT in which I
-              worked with the front-end team. In addition to my development
-              work, I am skilled in troubleshooting problems and resolving bugs
-              within an existing system.
+              I'm like a coding chameleon, constantly weaving my way through new
+              programming languages. JavaScript is my current playground, but
+              I'm also well-versed in building web applications with React.js,
+              Node.js, and MongoDB. It's not just about the code for me, though.
+              I'm fueled by the energy of a dynamic team and the thrill of
+              contributing fresh ideas. Think of me as your secret weapon for
+              innovative solutions.
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
@@ -53,15 +53,15 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiarey text-gradient mb-2">
-                  {InView ? <CountUp start={0} end={7} duration={6} /> : null}+
+                  {InView ? <CountUp start={0} end={8} duration={6} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Projects <br /> Completed
+                 Live Projects <br /> Completed
                 </div>
               </div>
               <div>
                 <div className="text-[40px] font-tertiarey text-gradient mb-2">
-                  {InView ? <CountUp start={0} end={5} duration={4} /> : null}+
+                  {InView ? <CountUp start={0} end={4} duration={4} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   certificates <br /> Earned

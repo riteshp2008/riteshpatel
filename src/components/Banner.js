@@ -61,11 +61,11 @@ const Banner = () => {
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
               As an aspiring software developer, I am equipped with foundational
-              skills in programming languages such as JavaScript and proficiency
-              in web development technologies, including React.js, Next.js,
-              Redux, Node.js, Express.js and MongoDB. Eager to contribute my
-              enthusiasm and learnings to dynamic teams, I am committed to
-              continuous growth and delivering innovative solutions !
+              skills in programming languages such as Java, JavaScript,
+              React.js, Next.js, Redux, Node.js, Express.js and MongoDB. Eager
+              to contribute my enthusiasm and learnings to dynamic teams, I am
+              committed to continuous growth and delivering innovative solutions
+              !
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}

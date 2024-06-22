@@ -75,7 +75,11 @@ const Banner = () => {
               <a href="https://wa.me/+918085678460?text=Hi">
                 <button className="btn btn-lg">Contact me</button>
               </a>
-              <a href="#" className="text-gradient btn-link">
+              <a
+                href="./Resume-Ritesh.pdf"
+                className="text-gradient btn-link"
+                download={Resume - Ritesh.pdf}
+              >
                 My Portfolio
               </a>
             </motion.div>

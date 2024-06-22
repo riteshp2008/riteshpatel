@@ -108,7 +108,7 @@ const Work = () => {
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3x1 text-white">
-                  React.js || Redux || Node.js || Express.js || MongoDB
+                  React.js || Redux || Node.js || Express.js
                 </span>
               </div>
             </div>

@@ -8,10 +8,10 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* logo */}
           
-            <img src="/images/logo.svg" alt="" />
+            {/* <img src="/images/logo.svg" alt="" /> */}
           
           {/* button */}
-          <button className="btn btn-sm">Work with me</button>
+          {/* <button className="btn btn-sm">Work with me</button> */}
         </div>
       </div>
     </header>

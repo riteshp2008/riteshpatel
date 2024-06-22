@@ -60,10 +60,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Full Stack Developer with Good analytical and problem solving
-              skills and ability to perform well in team. Passionate about
-              coding and learning new things and update myself with new
-              technologies.
+              A passionate and results-driven Full Stack Developer with 3 months
+              of internship experience and a strong foundation in agile
+              methodologies. Leveraging expertise in JavaScript, Node.js,
+              MongoDB, and various JavaScript libraries, I design, develop, and
+              deploy full-stack web applications that are robust, user-friendly,
+              and efficient. I am eager to contribute my skills and collaborate
+              within a fast-paced development environment.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -76,9 +79,9 @@ const Banner = () => {
                 <button className="btn btn-lg">Contact me</button>
               </a>
               <a
-                href="./Resume-Ritesh.pdf"
+                href="./ResumeRitesh.pdf"
                 className="text-gradient btn-link"
-                download={Resume - Ritesh.pdf}
+                download="ResumeRitesh.pdf"
               >
                 My Portfolio
               </a>
@@ -109,7 +112,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[500px]"
           >
-            <img src="/images/avatar.svg" alt="" />
+            <img src="/images/avatar3.svg" alt="" />
           </motion.div>
         </div>
       </div>

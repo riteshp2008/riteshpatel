@@ -82,7 +82,7 @@ const Banner = () => {
                 className="text-gradient btn-link"
                 download="ResumeRitesh.pdf"
               >
-                My Portfolio
+                My Resume
               </a>
             </motion.div>
             {/* socials */}

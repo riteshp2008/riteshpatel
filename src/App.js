@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
     <ToastContainer />
-    <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
+    <div className="bg-black bg-no-repeat bg-cover overflow-hidden">
       <Header />
       <Banner />
       <Nav />

@@ -49,10 +49,7 @@ const Contact = () => {
             className="flex-1 flex justify-start items-start"
           >
             <div>
-              <h4 className="text-x1 uppercase text-accent font-medium mb-2 tracking-wide">
-                Get in Touch
-              </h4>
-              <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
+              <h2 className="text-[45px] lg:text-[80px] leading-none mb-12">
                 Let's work <br />
                 together!
               </h2>

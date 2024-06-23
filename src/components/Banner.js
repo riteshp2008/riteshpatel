@@ -2,7 +2,7 @@ import React from "react";
 //image
 // import Image from "../assets/avatar.svg";
 //icons
-import { FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
 // type animation
 import { TypeAnimation } from "react-type-animation";
 // motion
@@ -74,15 +74,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex gap-x-7 max-w-max items-center mb-10 mx-auto lg:mx-0"
             >
-              <a href="https://wa.me/+918085678460?text=Hi">
-                <button className="btn btn-lg">Contact me</button>
-              </a>
-              <a
-                href="./ResumeRitesh.pdf"
-                className="text-gradient btn-link"
-                download="ResumeRitesh.pdf"
-              >
-                My Resume
+              <a href="./ResumeRitesh.pdf" download="ResumeRitesh.pdf">
+                <button className="btn btn-lg">Download CV</button>
               </a>
             </motion.div>
             {/* socials */}
@@ -93,14 +86,17 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-8 max-w-max mx-auto lg:mx-0"
             >
-              <a href="https://www.instagram.com/ri.teshhh/">
-                <FaInstagram />
+              <a href="https://github.com/riteshp2008">
+                <FaGithub />
+              </a>
+              <a href="https://www.linkedin.com/in/riteshpatel2008/">
+                <FaLinkedin />
               </a>
               <a href="https://twitter.com/ri_teshhh">
                 <FaTwitter />
               </a>
-              <a href="https://www.linkedin.com/in/riteshpatel2008/">
-                <FaLinkedin />
+              <a href="https://www.instagram.com/ri.teshhh/">
+                <FaInstagram />
               </a>
             </motion.div>
           </div>
